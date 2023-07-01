@@ -9,6 +9,11 @@ const schema = new mongoose.Schema({
         type: String,
         required: true
     },
+    mobileNo: {
+        type: String,
+        required: true
+    },
+    location: String,
     password: {
         type: String,
         required: true,
