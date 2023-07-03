@@ -17,7 +17,10 @@ const schema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-    }
+    },
+    resetLink: String,
+    resetDateExpires: Date,
+    secretKey: String,
 }, {
     timestamps: true
 })
